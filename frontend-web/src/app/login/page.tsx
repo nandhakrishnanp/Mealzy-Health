@@ -1,45 +1,47 @@
 "use client";
 
-import Link from "next/link";
+// import Link from "next/link";
 import { useState } from "react";
 
 // next js
 import { useRouter } from "next/navigation";
 import axioinstance from "../../../axiosInstance";
-interface PageProps {}
-const Page = ({}: PageProps) => {
+// interface PageProps {}
+const Page = ({}) => {
   const [user, setUser] = useState(null);
   const [password, setPassword] = useState(null);
   // login
 
   const nav = useRouter();
 
-  const handleLogin = async () => {
-    try {
-      if (!user || !password) {
-        alert("Please enter username and password");
-        return;
-      }
-      const res = await axioinstance.post("/user/login", {
-        name: user,
-        password: password,
-      });
-      if (res.data.user) {
-        console.log(res.data);
-        localStorage.setItem("user", JSON.stringify(res.data.user));
-        nav.push("/ai");
-      }
-    } catch (error) {
-      console.error("Login failed", error);
-    }
-  };
+// const handleLogin = async () => {
+//     try {
+//       if (!user || !password) {
+//         alert("Please enter username and password");
+//         return;
+//       }
+//       const res = await axioinstance.post("/user/login", {
+//         name: user,
+//         password: password,
+//       });
+//       if (res.data.user) {
+//         console.log(res.data);
+//         localStorage.setItem("user", JSON.stringify(res.data.user));
+//         nav.push("/ai");
+//       }
+//     } catch (error) {
+//       console.error("Login failed", error);
+//     }
+// };
+
+//handleLogin
+
   return (
     <div className=" min-h-screen w-full flex flex-col  items-center justify-center">
       <div className=" flex flex-col gap-4">
         <h2 className=" font-sans font-bold text-3xl">
           Login into Mealzy Health
         </h2>
-
         <input
           type="text"
           placeholder="Username"

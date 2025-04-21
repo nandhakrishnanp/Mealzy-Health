@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 
-interface PageProps {}
+// interface PageProps {}
 
-const Page = ({}: PageProps) => {
+const Page = ({}) => {
   return (
     <div className="min-h-screen w-full flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-all">
       <h1 className="font-extrabold text-3xl sm:text-6xl text-center text-gray-800 dark:text-white tracking-tight drop-shadow-lg">
