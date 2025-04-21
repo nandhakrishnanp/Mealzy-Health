@@ -4,7 +4,7 @@
 
 ## Demo - ai Nutritionist (Beta)
 
-[Live Mealzi health](https://mealzy-health-80w4v1u0r-nandhakrishnanps-projects.vercel.app/)
+[Live Mealzi health](https://mealzy-health.vercel.app/)
 
 
 ---
