@@ -8,8 +8,8 @@ import { useRouter } from "next/navigation";
 import axioinstance from "../../../axiosInstance";
 // interface PageProps {}
 const Page = ({}) => {
-  const [user, setUser] = useState(null);
-  const [password, setPassword] = useState(null);
+  const [user, setUser] = useState('');
+  const [password, setPassword] = useState('');
   // login
 
   const nav = useRouter();
