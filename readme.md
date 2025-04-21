@@ -2,6 +2,11 @@
 
 **Mealzy Health** is a health and wellness companion powered by AI, designed to help users make smarter food choices, monitor their nutritional intake, and build sustainable habits. With a blend of beautiful UI, real-time insights, and smart AI support (powered by Gemini 2.0 Flash), Mealzy offers a unique experience for anyone focused on improving their lifestyle.
 
+## Demo - ai Nutritionist (Beta)
+
+[text](https://mealzy-health-80w4v1u0r-nandhakrishnanps-projects.vercel.app/)
+
+
 ---
 
 <div  align="center" >
